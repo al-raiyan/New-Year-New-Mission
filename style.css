@@ -35,12 +35,13 @@ body {
   position: relative;
   text-align: left;
   color: black;
+  margin-bottom: 60px;
 }
 .join-party div img {
   height: 100%;
   width: 100%;
 }
-.flaxble {
+.midnight-party {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -52,7 +53,7 @@ body {
   width: 50%;
   padding: 5%;
 }
-.flaxble div img {
+.midnight-party div img {
   padding: 20px;
   height: 80%;
   width: 60%;
@@ -67,4 +68,61 @@ body {
   padding: 15px 30px;
   border-radius: 10px;
   border-color: #dd8622;
+}
+.protfolio {
+  margin-bottom: 90px;
+}
+.protfolio-caption {
+  padding-left: 25px;
+}
+.protfolio-caption h4 {
+  color: red;
+}
+.protfolio-caption h1 {
+  font-size: 40px;
+}
+.flexible {
+  display: flex;
+}
+.one-third-width {
+  width: 35%;
+  padding: 5%;
+}
+.one-third-width img {
+  width: 70%;
+}
+.cards {
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.subscribe {
+  text-align: center;
+}
+.subscribe h1 {
+  font-size: 50px;
+}
+.input-fild {
+  text-align: center;
+}
+.email-input {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-width: 0;
+}
+.button {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: aliceblue;
+  background-color: red;
+  border-width: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
