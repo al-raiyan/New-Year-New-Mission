@@ -1,0 +1,70 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 100px;
+}
+.header {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.header div img {
+  height: 100%;
+  width: 100%;
+}
+.top-center {
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  padding: 40px;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
+.discount {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.discount h1 {
+  color: red;
+  font-size: 50px;
+}
+.discount p {
+  color: red;
+}
+.join-party {
+  position: relative;
+  text-align: left;
+  color: black;
+}
+.join-party div img {
+  height: 100%;
+  width: 100%;
+}
+.flaxble {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 100px;
+  left: 50px;
+  color: white;
+}
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+.flaxble div img {
+  padding: 20px;
+  height: 80%;
+  width: 60%;
+}
+.half-width h1 {
+  font-size: 80px;
+}
+.link-button {
+  text-decoration: none;
+  color: white;
+  background-color: #dd8622;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border-color: #dd8622;
+}
