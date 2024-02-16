@@ -99,6 +99,7 @@ body {
 }
 .subscribe {
   text-align: center;
+  margin-bottom: 60px;
 }
 .subscribe h1 {
   font-size: 50px;
@@ -125,4 +126,32 @@ body {
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.footer {
+  color: white;
+  background-color: black;
+}
+.footer-items {
+  padding: 80px;
+}
+.footer-content {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.contucts {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.contucts img {
+  height: 100%;
+}
+.hr-line {
+  border-top: 1px solid rgb(75, 74, 74);
+  border-bottom: 1px solid rgb(75, 74, 74);
+}
+.social-media {
+  margin: 20px;
+  text-align: center;
 }
