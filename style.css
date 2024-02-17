@@ -13,9 +13,10 @@ body {
 }
 .top-center {
   position: absolute;
-  top: 200px;
+  top: 100px;
   left: 500px;
   padding: 40px;
+  text-align: center;
   align-items: center;
   font-size: 40px;
   color: white;
@@ -96,7 +97,14 @@ body {
   padding: 5px;
   border-radius: 5px;
   margin: 10px;
+  padding: 50px;
+  transition: 4s;
+  margin: 0 auto;
 }
+.cards :hover {
+  transform: scale(1.2);
+}
+
 .subscribe {
   text-align: center;
   margin-bottom: 60px;
@@ -154,4 +162,32 @@ body {
 .social-media {
   margin: 20px;
   text-align: center;
+}
+.circle {
+  border: 10px solid red;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0);
+  color: white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  line-height: 100px;
+  padding: 20px;
+}
+.circle img {
+  height: 100%;
+  width: 100%;
+}
+.one-third-width h4 {
+  color: red;
+}
+.one-third-width h1 {
+  font-size: 50px;
+}
+.new-year {
+  color: red;
+}
+.new-img {
+  height: 50%;
+  width: 5%;
 }
